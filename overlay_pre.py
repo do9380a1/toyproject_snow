@@ -6,9 +6,14 @@ class overlay_processing:
         try:
 
             bg_img = background_img.copy()
+            
             # convert 3 channels to 4 channels
             if bg_img.shape[2] == 3:
                 bg_img = cv2.cvtColor(bg_img, cv2.COLOR_BGR2BGRA)
+                
+            # overlay_size 조정
+            if overlay_size is not None:
+                img_to_overlay_t = cv2.resize(img_to_overlay_t.copy(), overlay_size)
 
             b, g, r, a = cv2.split(img_to_overlay_t)
 
