@@ -1,5 +1,10 @@
 # toyproject_snow
 
+### 프로젝트 개요
+- 얼굴인식 스노우 카메라처럼 흉내내서 만들기 (opencv, dlib 사용)
+![ryan_transparent](https://user-images.githubusercontent.com/84002580/147721946-dfa2bdba-add6-4943-ae3c-3204a3189b81.png)
+
+
 ### 파일 설명
 - main.py 파이썬 실행 파일
 - overlay_pre.py 인식한 얼굴에 다른 이미지를 덮어씌우는 함수 정의
