@@ -2,7 +2,9 @@
 
 ### 프로젝트 개요
 - 얼굴인식 스노우 카메라처럼 흉내내서 만들기 (opencv, dlib 사용)
-![ryan_transparent](https://user-images.githubusercontent.com/84002580/147721946-dfa2bdba-add6-4943-ae3c-3204a3189b81.png)
+
+
+![result_image](https://user-images.githubusercontent.com/84002580/147722180-4b0586ab-e028-459a-896d-676011f5fc2c.jpg)
 
 
 ### 파일 설명
