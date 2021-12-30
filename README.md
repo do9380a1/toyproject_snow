@@ -1,5 +1,11 @@
 # toyproject_snow
 
+### 파일 설명
+- main.py 파이썬 실행 파일
+- overlay_pre.py 인식한 얼굴에 다른 이미지를 덮어씌우는 함수 정의
+- face_landmark.dat 68개 얼굴 특징점을 추출하기 위해 기존 학습된 데이터파일
+- smaples 폴더 : 동영상(girl.mp4), 얼굴에 덮어씌울 이미지(ryan_transparent.png)
+
 ### 진행 순서
 #### 1. python 가상 환경 만들기
 - anaconda prompt 실행
